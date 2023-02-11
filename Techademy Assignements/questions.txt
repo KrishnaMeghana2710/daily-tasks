@@ -1,0 +1,17 @@
+Java Programming for Beginners
+User Assignment - 1
+Problem Statement:
+Description:
+1. Write the program based on variables and types of variables in java and Write the 
+program to type’s caste int datatype into float datatype in java.
+2. Write a Java program to print 'Hello' on screen and then print your name on a separate 
+line.
+3. Write the program based on variables and types of variables in java and Write the 
+program to types caste int datatype into float datatype in java
+4. Write a Java program that takes a number as input and prints its multiplication table 
+upto 10.
+5. Write a Java program to get a number from the user and print whether it is positive 
+or negative.
+Input number: 35
+6. Write a Java program to create an array of 5 strings. Initialize it, Print the array in 
+reverse order using while loop
