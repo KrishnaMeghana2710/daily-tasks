@@ -1,0 +1,17 @@
+Java Programming for Beginners
+
+User Assignment - 2
+
+Problem Statement:
+
+Description:
+
+1. Create a sample array, Write a Java program to sum values of an array.
+
+2. Write the program to create an array and access the all the value of array in java.
+
+3. Write a Java program to calculate the average value of array elements.
+
+4. Write a java program to create a multi dimension array of 3 rows. The first row should contain values 10 and 20.the second row should contain values 30, 40, 50.The third row should contain value 60.print the array.
+
+5. Write a Java program to count the number of key-value (size) mappings in a map.
