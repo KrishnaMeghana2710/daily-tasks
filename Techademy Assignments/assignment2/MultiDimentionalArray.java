@@ -1,11 +1,13 @@
 import java.util.*;
 public class MultiDimentionalArray {
     public static void main(String[] args) {
+
         //creating the 0th row array
         ArrayList<Integer> row0 = new ArrayList<>();
-        //adding values into the array
+         //adding values into the array
         row0.add(10);
         row0.add(20);
+
         //creating 1st row array
         ArrayList<Integer> row1 = new ArrayList<>();
         //adding elemnts into it
@@ -24,6 +26,7 @@ public class MultiDimentionalArray {
         list.add(row0);
         list.add(row1);
         list.add(row2);
+        
         //printing the multidimentional array
         System.out.println(list);
 

@@ -11,7 +11,7 @@ public class AverageValue {
         int iterator = 0;
         int sum= 0;
         //taking values that are to be added into the array
-        System.out.println("Enter "+size+" values that are to be added into the array");
+        System.out.println("Enter " + size + " values that are to be added into the array");
         //taking input values into the array
         while(iterator<size){
             array[iterator] = sc.nextInt();
@@ -25,10 +25,10 @@ public class AverageValue {
         average = (float) (sum) / size;
         //printing the answer
         System.out.print("Average of ");
-        while(iterator<size){
+        while(iterator < size){
             System.out.print(array[iterator++]+" ");
         }
-        System.out.println("is "+average);
+        System.out.println("is " + average);
         //closing the scanner object
         sc.close();
 
