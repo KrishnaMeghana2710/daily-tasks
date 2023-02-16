@@ -17,8 +17,16 @@ public class AccessArray {
         //again making the iterator variable to 0 for traversing the array
         iterator = 0;
          // printing the elements in the array
-        while(iterator<arraySize){
-            System.out.println(iterator+" element is "+array[iterator++]);
+        while(iterator < arraySize){
+            if(iterator==1){
+                System.out.println(iterator + "st index element is " + array[iterator++]);
+            } else if(iterator==2){
+                System.out.println(iterator + "nd index element is " + array[iterator++]);
+            } else if(iterator==3){
+                System.out.println(iterator + "rd index element is " + array[iterator++]);
+            }else{
+            System.out.println(iterator + "th index element is " + array[iterator++]);
+            }
         }
        //closing the scanner object
         sc.close();
