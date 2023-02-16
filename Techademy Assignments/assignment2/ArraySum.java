@@ -13,14 +13,14 @@ class ArraySum{
         int iterator=0;
         int sum = 0;
         //iterating the array
-        System.out.println("Enter "+size+" elements into the array");
+        System.out.println("Enter " + size + " elements into the array");
         while(iterator<size){
             array[iterator] = sc.nextInt();
             //adding every element to the sum value
             sum+= array[iterator++];
         }
         //printng the sum
-        System.out.println("Sum of all the elements is "+sum);
+        System.out.println("Sum of all the elements is " + sum);
         //closing the scanner object
         sc.close();
 
