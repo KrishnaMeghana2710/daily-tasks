@@ -18,11 +18,11 @@ public class AccessArray {
         iterator = 0;
          // printing the elements in the array
         while(iterator < arraySize){
-            if(iterator==1){
+            if(iterator == 1){
                 System.out.println(iterator + "st index element is " + array[iterator++]);
-            } else if(iterator==2){
+            } else if(iterator == 2){
                 System.out.println(iterator + "nd index element is " + array[iterator++]);
-            } else if(iterator==3){
+            } else if(iterator == 3){
                 System.out.println(iterator + "rd index element is " + array[iterator++]);
             }else{
             System.out.println(iterator + "th index element is " + array[iterator++]);
