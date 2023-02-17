@@ -1,6 +1,6 @@
 package house.pack;
 interface HouseArchitecture{
     
-     int getPrice();
-     String banks();
+    abstract int getPrice();
+    abstract String banks();
 }

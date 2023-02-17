@@ -1,7 +1,7 @@
 package house.pack;
 
 public class Villa implements HouseArchitecture {
-   public int getPrice(){
+    protected int getPrice(){
         return 50000000;
     }
    public String banks(){
