@@ -1,4 +1,4 @@
-package house;
+package house.pack;
 interface HouseArchitecture{
     
      int getPrice();
