@@ -1,4 +1,4 @@
-package house.pack;
+package house;
 
 public class Plot implements HouseArchitecture{
     public int getPrice(){

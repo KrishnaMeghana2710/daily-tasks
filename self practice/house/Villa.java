@@ -1,4 +1,4 @@
-package house.pack;
+package house;
 
 public class Villa implements HouseArchitecture {
    public int getPrice(){
