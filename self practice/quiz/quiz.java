@@ -16,6 +16,7 @@ class quiz{
 
         } 
     }
+    sc.close();
 
     }
 }
