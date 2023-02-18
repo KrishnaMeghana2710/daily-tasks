@@ -1,8 +1,8 @@
 package Area;
 public class Triangle extends Shape{
-    Triangle(double dim1, double dim2){
-        this.dim1= dim1;
-        this.dim2= dim2;
+    Triangle(double base, double height){
+        this.dim1= base;
+        this.dim2= height;
     }
     void calculateArea(){
         double area = (dim1 * dim2)/2;
