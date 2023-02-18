@@ -21,18 +21,23 @@ public class Rectangle2 {
         //returning the rectangle with new values
           return rect;
     }
+
+    public static void display(Rectangle2 rect){
+        System.out.println("\nLength of the rectangle is : "+rect.length
+        +"\n Breadth of the rectangle is "+rect.breadth);
+    }
     public static void main(String[] args) {
         //creating a rectangle and passing length and breadth values
         Rectangle2 one = new Rectangle2(10, 20);
-        //printing the initial length and breadth values
-        System.out.println("The parameters of the rectangle before flipping \n"
-        +" length: "+one.length+", breadth: "+one.breadth);
+    
+        display(one);
 
         //this statement initializes the rectangle with new values 
         one= flipRectangle(one);
+        System.out.println("\nAfter updating : ");
         //printing the updated values
-        System.out.println("The parameters of the rectangle after flipping \n"
-        +" length: "+one.length+", breadth: "+one.breadth);
+        display(one);
+        
         
     }
 }
