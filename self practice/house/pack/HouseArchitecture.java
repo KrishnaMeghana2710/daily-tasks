@@ -1,5 +1,5 @@
 package house.pack;
-interface HouseArchitecture{
+public interface HouseArchitecture{
     
     abstract int getPrice();
     abstract String banks();
