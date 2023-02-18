@@ -1,0 +1,25 @@
+Java Programming for Beginners
+
+User Assignment - 3
+
+Problem Statement:
+
+Description:
+
+1. Create a class Rectangle with length and breadth properties. Write a default constructor to assign default length and breadth with the value 10. 
+Write also a parameter constructor to initialize length and breadth with any given values.
+Write the main program to test the functionality of Rectangle class. Use the "this" keyword wherever it is required.
+
+
+2. Create a Rectangle class with length and breadth properties. 
+Include a parameter constructor to initialize these properties.
+Write a static method "flipRectangle" which takes a Rectangle object 
+and return a new rectangle with the length is same as breadth of the 
+first rectangle and breadth is same aslength of the first rectangle. 
+Include the display method to display the dimensions of rectangle.
+
+
+2) Create an abstract class with the name "Shape" to represent 2D geometric shapes. 
+It should have 2 properties dim1, dim2.include an abstract method "calculateArea()".
+Provide 3 sub classes with the names "Rectangle", 
+"Circle" and "Triangle", each of these should provide implementation for the abstract method that calculates area of each shape.
