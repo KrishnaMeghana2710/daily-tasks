@@ -1,3 +1,4 @@
+
 public class Rectangle2 {
     //declaring length and breadth values
     int length;
@@ -10,6 +11,7 @@ public class Rectangle2 {
     }
 
     //this method flips the length and breadth values
+    //returns the updated rectangle
     static Rectangle2 flipRectangle(Rectangle2 rect){
         //storing the breadth value in a temporary variable to not loose the breadth value
        int temporary = rect.breadth;
@@ -17,23 +19,26 @@ public class Rectangle2 {
         rect.breadth = rect.length;
         // giving the breadth value which is stored in temporary variable
         rect.length = temporary;
-
         //returning the rectangle with new values
           return rect;
     }
+
     //method to display length and breadth values
-    public static void display(Rectangle2 rect){
+    static void display(Rectangle2 rect){
         System.out.println("\nLength of the rectangle is : "+rect.length
         +"\n Breadth of the rectangle is "+rect.breadth);
     }
+
     public static void main(String[] args) {
         //creating a rectangle and passing length and breadth values
         Rectangle2 one = new Rectangle2(10, 20);
-    
+        
+        
         display(one);
 
         //this statement updates the rectangle with new values 
-        one= flipRectangle(one);
+        //as flipRectangle is a static method it doesn't require an object to call
+        one = flipRectangle(one);
 
         System.out.println("\nAfter updating : ");
         //printing the updated values
