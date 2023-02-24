@@ -1,5 +1,6 @@
 package test;
 import calc.*;
+import test.StringHelperTest.StringHelper;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTimeout;
@@ -7,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertTimeout;
 import java.time.Duration;
 
 import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Disabled;
+//import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
 
@@ -70,6 +71,14 @@ class jUnit5{
             assertEquals(1, str.length());
         }
 
+
+    }
+    @Test
+    void StringTest(){
+        StringHelper str = new StringHelper();
+        String actual = str.truncateAfromstart("AABD");
+        String expected = "BD";
+        assertEquals(expected, actual);
 
     }
     
