@@ -1,0 +1,24 @@
+User Assignment - 4
+
+Problem Statement:
+
+Description:
+
+1. Write a Java program to get and display information (year, month, day, and hour, minute) of a default calendar.
+
+2. Write the program based on String immutable and the following types of string methods
+
+a) Concat
+b) Uppercase
+c) Lowercase
+d) Replace
+
+
+3. Write the program based on exception and using throws keyword in java and Write the program using the following exceptions in java
+a) ArrayIndexOutOfBound
+b) NumberFormatException
+c) Try-catch
+
+4. Write Java program to read input from java console.
+
+5. Write the program to create a file and write the content in a file and read from a file in java.
