@@ -1,0 +1,5 @@
+"select t.worker as designation, max(w.salary) as maxSalary from worker as w join title as t on w.worker_id = t.id where salary > 50000 group by t.worker;",,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+designation,maxSalary,,,,,,,,,,,,,,
+manager,80000,,,,,,,,,,,,,,
+worker,70000,,,,,,,,,,,,,,

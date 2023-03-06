@@ -1,0 +1,6 @@
+select *  from worker where first_name like 'h%';,,,,
+,,,,
+worker_id,first_name,last_name,salary,joining_date
+2,harry,potter,20000,05-07-2000
+4,henry,cavil,30000,06-05-2013
+5,heath,ledger,45000,09-07-2007

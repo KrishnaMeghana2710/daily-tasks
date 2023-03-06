@@ -1,0 +1,8 @@
+"select * from worker as w join title as t on w.worker_id = t.id where w.first_name like ""h%"" and 
+t.worker like ""manager"" ;",,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+worker_id,first_name,last_name,salary,joining_date,id,worker
+2,harry,potter,20000,05-07-2000,2,manager
+5,heath,ledger,45000,09-07-2007,5,manager
